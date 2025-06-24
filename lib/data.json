@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Asha Mehta",
+    "bio": "Professional classical singer with 10 years of experience.",
+    "categories": ["Singer"],
+    "languages": ["Hindi", "English"],
+    "feeRange": "₹1000 - ₹1500",
+    "location": "Mumbai"
+  },
+  {
+    "name": "DJ Vibes",
+    "bio": "EDM and Bollywood fusion DJ for all types of events.",
+    "categories": ["DJ"],
+    "languages": ["English"],
+    "feeRange": "₹2500 - ₹3000",
+    "location": "Bangalore"
+  },
+  {
+    "name": "Ravi Kumar",
+    "bio": "Public speaker on leadership and motivation.",
+    "categories": ["Speaker"],
+    "languages": ["Hindi", "English"],
+    "feeRange": "₹3000 - ₹3500",
+    "location": "Delhi"
+  }
+]
