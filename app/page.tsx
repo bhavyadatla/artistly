@@ -26,24 +26,26 @@ export default function HomePage() {
 
           {/* Header */}
           <header className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-8 gap-3">
-            <h1 className="text-2xl font-bold">Artistly</h1>
+  {/* Title */}
+  <h1 className="text-2xl font-bold">Artistly</h1>
 
-            <div className="flex flex-wrap gap-4 items-center justify-start sm:justify-end">
-              <nav className="flex flex-wrap gap-4 text-sm font-medium">
-                <Link href="/" className="hover:underline">Home</Link>
-                <Link href="/artists" className="hover:underline">Artists</Link>
-                <Link href="/onboard" className="hover:underline">Onboarding</Link>
-                <Link href="/dashboard" className="hover:underline">Dashboard</Link>
-              </nav>
-              <button
+  {/* Nav + Theme (responsive row on mobile, inline on desktop) */}
+  <div className="flex gap-4 items-center overflow-x-auto whitespace-nowrap">
+    <nav className="flex gap-4 text-sm font-medium">
+      <Link href="/" className="hover:underline">Home</Link>
+      <Link href="/artists" className="hover:underline">Artists</Link>
+      <Link href="/onboard" className="hover:underline">Onboarding</Link>
+      <Link href="/dashboard" className="hover:underline">Dashboard</Link>
+    </nav>
+    <button
   onClick={toggleTheme}
   className="px-3 py-1 rounded text-sm font-medium border border-orange-600 bg-orange-500 text-white hover:bg-orange-600 transition"
 >
   {darkMode ? 'Light Mode' : 'Dark Mode'}
 </button>
 
-            </div>
-          </header>
+  </div>
+</header>
 
           {/* Hero Section */}
           <motion.section
